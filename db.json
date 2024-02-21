@@ -1,9 +1,154 @@
 {
-  "posts": [
-    { "id": 1, "title": "json-server", "author": "typicode" }
+  "pets": [
+    {
+      "id": "Y22M10_BOT_01",
+      "name": "BỘT",
+      "type": "cat",
+      "species": "Mèo ta",
+      "color": "Trắng",
+      "gender": 0,
+      "age": "trẻ",
+      "sterilization": true,
+      "vacine": true,
+      "date": "2021-10-10",
+      "adopted": false,
+      "description": "Một ngày nọ, tại một góc nhỏ đầy rác, bạn mèo con đáng yêu Bột, được tìm thầy trong một chiếc bao ni lông. Không ai để ý đến em, cũng không ai biết được bạn nhỏ này đang cầu cứu điều gì mặc chi tiếng meo meo xé lòng cứ vang mãi.\nBột ngay lập tức được đưa tới phòng khám để điều trị. Điều đáng ngại hơn là bạn nhỏ này bị bỏ đói, uống không đủ nước, sống trong điều kiện vô cùng bẩn thỉu. Sức khỏe của Bột đã bị ảnh hưởng nghiêm trọng, bị tiêu chảy và bị sán lợn, phải lưu trú tại phòng khám để điều trị kịp thời.\nMột thời gian sau, nhóc tì này đã được cho ăn đầy đủ và được chăm sóc kĩ càng. Bộ lông mượt mà và đôi mắt to tròn nũng nịu của chú mèo nhỏ khiến ai nhìn thấy cũng không khỏi thích thú. Tính cách của Bột thật đáng yêu, rất ngoan và thích được vuốt ve. Rồi Bột được chủ đón về. Nhưng mới đây, Bột bị trả lại với tụi mình…\nBột #CODE23M012 đã trải qua rất nhiều sóng gió trong cuộc đời ngắn ngủi của mình. Nhưng giờ đây, những gì bạn nhỏ này mong muốn chỉ giản đơn là một mái ấm ấm cúng, có một gia đình yêu thương và che chở cho chúng. Nếu ba mẹ đang tìm kiếm một người bạn đáng yêu và tình cảm, hãy liên hệ ngay với Hội để đón nhận Bột về với vòng tay của ba mẹ!",
+      "image": "https://cuutrodongvatdanang.com/images/bot-11705399570414004001.jpg",
+      "fosterId": "fs1",
+      "questions": [
+        {
+          "id": "q01",
+          "question": "Bạn đã đi làm hay còn đi học?"
+        },
+        {
+          "id": "q02",
+          "question": "Bạn có thể chăm sóc bé được không?"
+        },
+        {
+          "id": "q03",
+          "question": "Bạn có nhà cửa rộng rãi không?"
+        },
+        {
+          "id": "q04",
+          "question": "Bạn có thể đưa bé đi khám sức khỏe định kỳ không?"
+        }
+      ]
+    },
+    {
+      "id": "Y22M10_CUN_01",
+      "name": "CÚN",
+      "type": "dog",
+      "species": "Chó ta",
+      "color": "Vàng",
+      "sterilization": false,
+      "vacine": false,
+      "date": "2021-10-10",
+      "adopted": true,
+      "description": "#CODE21C083, Rô được bạn báo tin bắt gặp khi đang xin ăn ở một quán ăn khu vực Sơn Trà, Đà Nẵng; ốm yếu, phần mũi thở không kiểm soát được, liên tục bị sổ mũi và chảy dịch mùi hôi rất khó chịu. Kết quả xét nghiệm máu cho thấy Rô bị nhiễm kí sinh trùng máu, và dương tính với kháng thể care, tức là đã từng bị care và vượt qua được.\nGần một năm sáu tháng ở với foster, vẫn thường xuyên ra vào phòng khám mỗi khi thời tiết ảnh hưởng đến phần mũi, Rô vẫn thế, vẫn yêu đời dù cho vẻ yêu đời đó đã dần bị bệnh tật chiếm chỗ. Và, Rô vẫn hiền lành, vẫn dành tình yêu cho con người...",
+      "image": "https://cuutrodongvatdanang.com/uploads/post/1165037498031.jpg",
+      "fosterId": "fs2",
+      "questions": [
+        {
+          "id": "q05",
+          "question": "Bạn đã đi làm hay còn đi học?"
+        },
+        {
+          "id": "q06",
+          "question": "Bạn có thể chăm sóc bé được không?"
+        },
+        {
+          "id": "q07",
+          "question": "Bạn có nhà cửa rộng rãi không?"
+        },
+        {
+          "id": "q08",
+          "question": "Bạn có thể đưa bé đi khám sức khỏe định kỳ không?"
+        }
+      ]
+    }
   ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 }
+  "fosters": [
+    {
+      "id": "fs1",
+      "name": "Nguyễn Văn A",
+      "phone": "0123456789",
+      "email": "vana@gmail.com",
+      "address": "Đà Nẵng",
+      "avatar": "https://www.j-14.com/wp-content/uploads/2021/10/harry-potter-now06.jpg?fit=800%2C1228&quality=86&strip=all",
+      "password": "123456"
+    },
+    {
+      "id": "fs2",
+      "name": "Nguyễn Văn B",
+      "phone": "0123456789",
+      "email": "vanb@gmail.com",
+      "address": "Đà Nẵng",
+      "avatar": "https://www.j-14.com/wp-content/uploads/2021/10/harry-potter-now06.jpg?fit=800%2C1228&quality=86&strip=all",
+      "password": "123456"
+    }
   ],
-  "profile": { "name": "typicode" }
+  "adopts": [
+    {
+      "id": "ad1",
+      "name": "Nguyễn Minh Khang",
+      "contact1": "https://www.facebook.com/khang",
+      "contact2": "0123456789",
+      "petId": "Y22M10_BOT_01",
+      "fosterId": "fs1",
+      "status": "0",
+      "questions": [
+        {
+          "id": "a1",
+          "question": "Bạn đã đi làm hay còn đi học?",
+          "answer": "Đi học"
+        },
+        {
+          "id": "a2",
+          "question": "Bạn có thể chăm sóc bé được không?",
+          "answer": "Có"
+        },
+        {
+          "id": "a3",
+          "question": "Bạn có nhà cửa rộng rãi không?",
+          "answer": "Có"
+        },
+        {
+          "id": "a4",
+          "question": "Bạn có thể đưa bé đi khám sức khỏe định kỳ không?",
+          "answer": "Có"
+        }
+      ]
+    },
+    {
+      "id": "ad_2024220_292",
+      "petId": "Y22M10_BOT_01",
+      "fosterId": "fs1",
+      "name": "Khang",
+      "contact1": "12",
+      "contact2": "12",
+      "questions": [
+        {
+          "id": "q01",
+          "question": "Bạn đã đi làm hay còn đi học?",
+          "answer": "12"
+        },
+        {
+          "id": "q02",
+          "question": "Bạn có thể chăm sóc bé được không?",
+          "answer": "12"
+        },
+        {
+          "id": "q03",
+          "question": "Bạn có nhà cửa rộng rãi không?",
+          "answer": "12"
+        },
+        {
+          "id": "q04",
+          "question": "Bạn có thể đưa bé đi khám sức khỏe định kỳ không?",
+          "answer": "12"
+        }
+      ],
+      "status": "0"
+    }
+  ]
 }
